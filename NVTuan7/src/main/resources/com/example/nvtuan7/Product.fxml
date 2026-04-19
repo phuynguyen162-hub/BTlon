@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imgProduct1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../product1.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb1Product1" alignment="CENTER" prefHeight="30.0" prefWidth="94.0" text="Con lon">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb2Product1" alignment="CENTER" prefHeight="34.0" prefWidth="69.0" text="800$">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
